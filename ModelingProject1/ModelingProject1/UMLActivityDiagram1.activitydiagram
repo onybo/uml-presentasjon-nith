@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm13="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="701958fb-3d37-400c-96c5-cbab200deaf6" name="Publiser kurs" linkedPackageId="2d2f9bf3-4c57-42e9-8647-929f59b9dff8" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="1e13851c-5a1e-4482-9aa4-2069fda74733" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="9e31d458-0d4b-48a2-923b-5c31c8a8ec07" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4a8a9f05-2f81-45da-b8ec-25d18b56f6dc">
+          <propertyInstance Id="76cee52e-ebbf-4d67-9024-3d16ae81c308" name="BaseName">
+            <elementDefinition Id="7178722b-09c6-426a-aef7-7b8433e895a2" />
+          </propertyInstance>
+          <elementDefinition Id="7acaf0bb-714c-4d89-b371-66b03ebc8125" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="df376d1f-b303-497d-ae5f-2413426ec482">
+          <propertyInstance Id="b84bb327-6be3-41ea-98a9-18f5db29aade" name="ClrAttributes">
+            <elementDefinition Id="7c0d6bdb-32c8-41ee-920e-2bf045f0c08c" />
+          </propertyInstance>
+          <elementDefinition Id="4ff48e7f-195a-4768-9f15-d75223803dcd" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e0180eec-35e3-4d00-bacd-0c25ff43e8fa">
+          <propertyInstance Id="a7222304-1446-4696-ac52-2efb74b9260d" name="Usings">
+            <elementDefinition Id="0e8c1a9a-4c75-4d48-ab20-5dd3e0b1b724" />
+          </propertyInstance>
+          <elementDefinition Id="462a7be6-bffe-43d3-a330-8b89b1e10399" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="b272f6f0-b0b9-42da-8367-d5ec3aab9795" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="48d86105-1c2c-476e-9de0-2d7ab8a7f47d" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="70cb7d54-81f9-487e-8449-bafc78d0d303">
+          <propertyInstance Id="72350068-2295-4e9e-8e9f-e6fab8ad11e3" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="24b471ad-5527-4855-8fa1-55416962cdb0" />
+          </propertyInstance>
+          <elementDefinition Id="e63ce1a2-3175-42d8-b65a-23cfc348bcd2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="bf020762-e5d0-4e8f-a46d-3837e99f7ff9">
+          <propertyInstance Id="6761483e-40ae-46af-bfa8-6bfa2031c2b1" name="TemplateFilePath" value="ClassTemplate=E:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=E:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=E:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=E:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="64d96acb-1ef6-42e5-9eea-5935723f14b5" />
+          </propertyInstance>
+          <elementDefinition Id="f6899a61-e4f0-48ee-acb5-c27f5a80bce8" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="460886b8-6503-46c1-8862-28ed89e217fc">
+          <propertyInstance Id="f6813f45-f711-4360-9874-680d3822293d" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="6974a9d8-c5ae-460e-9e23-4b1e69501747" />
+          </propertyInstance>
+          <elementDefinition Id="529f9245-e46d-4655-9185-8ab210c1cedb" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e352a9dd-c7e2-4fa1-ab42-0dab27f78f6f">
+          <propertyInstance Id="09ce8483-a20d-4337-838d-891d24c6679c" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="8942c883-e6be-4cd7-8e79-bb1d93fc9cf1" />
+          </propertyInstance>
+          <elementDefinition Id="383778e0-9dda-41d2-9d39-8a2e21edbf05" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c55ee5b9-0fb5-4c64-bab6-bf4f854b4445">
+          <propertyInstance Id="10b8dd78-9da6-4e0e-9e62-2a5c0e002fd2" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="5f6a2b11-a1d2-4ada-83ea-6b76a907efe5" />
+          </propertyInstance>
+          <elementDefinition Id="eb3020d2-766c-4983-a9a6-b0c30f163e69" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f4a98256-547e-438e-83dd-b491be39c482">
+          <propertyInstance Id="af5c9d14-af04-40b0-b4c4-4d6992ffc58b" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="485bc5e3-b051-4b74-8d3c-a34bd669b09c" />
+          </propertyInstance>
+          <elementDefinition Id="86fef411-aa51-4d38-989d-8ac25d44c4fa" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4a0867ef-1e9b-45cf-858f-e7b06181fb8e">
+          <propertyInstance Id="34fec83f-1f03-48e6-bfa0-a06d077e76de" name="Parameters">
+            <elementDefinition Id="31316f33-3c21-4b68-9024-fb9d82384a97" />
+          </propertyInstance>
+          <elementDefinition Id="edd027b3-29c5-4bfd-a355-6935fe9adf16" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="0054f671-764a-4472-ac23-567789e807bc">
+      <profileInstance Id="9eb11e3b-c2ce-47b8-a741-bb8fbfe54394" name="CSharpProfile">
+        <elementDefinition Id="4d3b32a8-0615-4bb5-a81f-00f4bb012728" />
+      </profileInstance>
+      <elementDefinition Id="03874235-e206-4081-b695-c51c8e5bc449" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="02118268-516d-48cf-9e86-62eaff43e980">
+      <profileInstance Id="45875edc-f015-406f-9bca-03d076186265" name="TextTemplateBindings">
+        <elementDefinition Id="69cfba5d-3906-49f5-b614-b7c513674fd5" />
+      </profileInstance>
+      <elementDefinition Id="78e20add-6045-48d0-aff7-35160671840e" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="bf07526f-e737-4e73-a754-07d3f57cb44d" name="Publiser kurs" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="8a30138e-1d35-4178-b9b6-d4b109aa222d" />
+        <nodes>
+          <initialNode Id="17e90781-520d-4351-9115-1d23ff3b9ef9" name="Initial1" isLeaf="false">
+            <elementDefinition Id="47a175a2-8411-46b5-aa92-76b8af85fec4" />
+            <flowNodeTargets>
+              <controlFlow Id="74a0d245-0e8e-43bb-87f3-c44f971564b8" isLeaf="false">
+                <decisionNodeMoniker Id="e78b98b0-efe0-45b6-80c0-79d38543756e" LastKnownName="Decision1" />
+                <elementDefinition Id="dc6d4453-17c5-4b4d-b6ef-413dc0f0045f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <decisionNode Id="e78b98b0-efe0-45b6-80c0-79d38543756e" name="Decision1" isLeaf="false">
+            <elementDefinition Id="a90a29da-c728-4d4e-97bc-2c391edd7923" />
+            <flowNodeTargets>
+              <controlFlow Id="b8dae3cd-d986-4d0a-a079-73772b882fe2" guard="Kurs er gyldig for publisering" isLeaf="false">
+                <forkNodeMoniker Id="aa8a77af-a1f3-45d7-8e8a-1d0477614d3b" LastKnownName="Fork1" />
+                <elementDefinition Id="b1e493cf-4b55-4a66-a4e6-98c9087d0911" />
+              </controlFlow>
+              <controlFlow Id="b62786f0-249f-4c22-90af-32f0109e1e3d" guard="Kurs kan ikke publiseres nå" isLeaf="false">
+                <opaqueActionMoniker Id="6eec66c2-e493-4fd1-b161-6382f47e2e71" LastKnownName="Gi bruker melding om hva som gjør at kurset ikke kan publiseres" />
+                <elementDefinition Id="ba450c9f-c789-4bb6-8268-06921aacfe15" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <forkNode Id="aa8a77af-a1f3-45d7-8e8a-1d0477614d3b" name="Fork1" isLeaf="false">
+            <elementDefinition Id="26e56334-f8a9-49a1-9df4-e71fce2a69db" />
+            <flowNodeTargets>
+              <controlFlow Id="dbad8a64-ce14-4c5c-b824-ffb32f3942d9" isLeaf="false">
+                <opaqueActionMoniker Id="0d9bf4a8-d58e-4196-9142-fd4e8dba8188" LastKnownName="Publiser til legacy kurs system" />
+                <elementDefinition Id="8cdf19bd-8d73-42a3-9745-8b883de64348" />
+              </controlFlow>
+              <controlFlow Id="6576cee2-72d4-4607-b2b5-7e5834411f8f" isLeaf="false">
+                <opaqueActionMoniker Id="66d631ba-4c86-4af3-a785-50f4a08c1ebf" LastKnownName="publiser til nettside" />
+                <elementDefinition Id="1cc33b90-3c0d-46bc-9659-2f1bf6d7ac60" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <joinNode Id="52d76e12-5730-46e7-828d-13d647832735" name="Join1" isLeaf="false">
+            <elementDefinition Id="91c7bf06-4991-4192-8028-af1863e553b1" />
+            <flowNodeTargets>
+              <controlFlow Id="1f4c03b3-c1df-41b2-baa5-6bcc7b79d311" isLeaf="false">
+                <activityFinalNodeMoniker Id="89322fa8-80a5-4bd1-bbc9-a5f4021cbe54" LastKnownName="ActivityFinal2" />
+                <elementDefinition Id="b4c3d516-eb8f-492f-a935-671fa2ebb536" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <opaqueAction Id="0d9bf4a8-d58e-4196-9142-fd4e8dba8188" name="Publiser til legacy kurs system" isLeaf="false">
+            <elementDefinition Id="ee799181-2345-4b56-b236-9b77e2d765d2" />
+            <flowNodeTargets>
+              <controlFlow Id="20f9c3ea-6987-4f10-936d-b82ea8686d53" isLeaf="false">
+                <joinNodeMoniker Id="52d76e12-5730-46e7-828d-13d647832735" LastKnownName="Join1" />
+                <elementDefinition Id="638ec4a3-fb4d-4aaf-b159-e1bbb681c329" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="66d631ba-4c86-4af3-a785-50f4a08c1ebf" name="publiser til nettside" isLeaf="false">
+            <elementDefinition Id="55d01633-53eb-42d8-813b-6d4b4eb02f2e" />
+            <flowNodeTargets>
+              <controlFlow Id="978f04fd-96fa-405e-b799-379125d303ab" isLeaf="false">
+                <joinNodeMoniker Id="52d76e12-5730-46e7-828d-13d647832735" LastKnownName="Join1" />
+                <elementDefinition Id="da68806a-affc-4c39-b9d1-796226f4f474" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="bd2737cf-d9d1-40ab-8967-edcc845feff2" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="34c41ee5-112c-476a-9956-11223f8c7907" />
+          </activityFinalNode>
+          <activityFinalNode Id="89322fa8-80a5-4bd1-bbc9-a5f4021cbe54" name="ActivityFinal2" isLeaf="false">
+            <elementDefinition Id="ae2c97ad-d366-4e28-aa7c-035c38e92bf3" />
+          </activityFinalNode>
+          <opaqueAction Id="6eec66c2-e493-4fd1-b161-6382f47e2e71" name="Gi bruker melding om hva som gjør at kurset ikke kan publiseres" isLeaf="false">
+            <elementDefinition Id="266c555f-bf50-4eb8-8167-eb6b4432a8aa" />
+            <flowNodeTargets>
+              <controlFlow Id="673f8915-cd48-4a5c-b0b5-084d327a8615" isLeaf="false">
+                <activityFinalNodeMoniker Id="bd2737cf-d9d1-40ab-8967-edcc845feff2" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="e5afccb3-c185-4df7-ab22-aacaed20e364" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="2d2f9bf3-4c57-42e9-8647-929f59b9dff8" name="ModelingProject1">
+    <elementDefinition Id="6723416a-f713-45a6-93af-eee51c2ed0f0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="26dc36fc-47d5-4357-af28-0e5f97802897">
+        <profileInstance Id="47c4f00f-d764-4fdb-b31b-b541b99f27c2" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="618f4ed3-fda5-48f3-a159-678daf6e602d">
+        <profileInstance Id="4ca163ef-971c-4376-b8f6-6fbf83a29e19" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

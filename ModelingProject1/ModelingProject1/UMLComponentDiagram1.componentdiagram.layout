@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLComponentDiagram1">
+  <componentModelMoniker Id="e912916f-9bf3-427b-95ae-020b11a1ab89" />
+  <nestedChildShapes>
+    <componentShape Id="dadef9a1-6b8b-48c4-9515-8acbe0881628" absoluteBounds="2.75, 1.875, 2.25, 0.96249999999999991" customColor="161, 199, 231" whiteBoxBoundsHeight="0.96249999999999991" whiteBoxBoundsWidth="2.25" blackBoxBoundsHeight="0.7" blackBoxBoundsWidth="2.25" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="1" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="1" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0" whiteBoxSettingsInitialized="true" blackBoxSettingsInitialized="true">
+      <componentMoniker Id="c686c524-a454-435e-86d1-0e62c3d583a9" LastKnownName="Course Component" />
+      <relativeChildShapes>
+        <providedInterfaceShape Id="0a36dd3c-0216-482e-885b-75b5788d6c68" absoluteBounds="5, 2.03125, 0.40625, 0.15625" blackBoxLocation="0.15625" whiteBoxLocation="0.15625" whiteBoxSettingsInitialized="true" blackBoxSettingsInitialized="true" whiteBoxEdge="r" blackBoxEdge="r" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <providedInterfaceMoniker Id="237b4ac3-7fb3-45ef-9506-f129fd3e7f1d" LastKnownName="Port1" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallySized="true" manuallyPlaced="true" absoluteBounds="5.09375, 2.3333333730697632, 0.98240371545155813, 0.14800345897674561" shapeFieldName="Label" />
+          </moveableDecoratorHostShapes>
+        </providedInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <componentShape Id="39030443-db18-4606-9c75-74c7dc310451" absoluteBounds="6.125, 1.375, 2.0833333333333321, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="8dfa6927-0508-4821-be1f-24e4d85d3b12" LastKnownName="Course Exporter" />
+      <relativeChildShapes>
+        <requiredInterfaceShape Id="a0b8f267-1e4a-4086-864c-bda4379ebce7" absoluteBounds="5.4687499999999991, 2.03125, 0.65625000000000089, 0.15625" blackBoxLocation="0" whiteBoxLocation="0" whiteBoxEdge="" blackBoxEdge="" whiteBoxIsOnPort="false" blackBoxIsOnPort="false">
+          <requiredInterfaceMoniker Id="65c2b75b-3415-4e72-a972-22a59449add0" LastKnownName="Port1" />
+          <relativeChildShapes />
+          <moveableDecoratorHostShapes>
+            <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="5.7863407457868261, 1.788194440305233, 0.125, 0.1341145783662796" shapeFieldName="Label" />
+          </moveableDecoratorHostShapes>
+        </requiredInterfaceShape>
+      </relativeChildShapes>
+    </componentShape>
+    <componentShape Id="1061fe88-4cd9-48bb-807c-268b41190d45" absoluteBounds="6.375, 2.875, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="6d345176-b449-4813-9950-08c2d2f8a5cb" LastKnownName="Web application" />
+    </componentShape>
+    <dependencyConnector edgePoints="[(7.125 : 2.875); (7.125 : 2.625); (7.27083349227905 : 2.625); (7.27083349227905 : 2.325)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="7363b7e6-35ca-4b98-8869-9fbce19a10ca" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="1061fe88-4cd9-48bb-807c-268b41190d45" />
+        <componentShapeMoniker Id="39030443-db18-4606-9c75-74c7dc310451" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</componentDiagram>

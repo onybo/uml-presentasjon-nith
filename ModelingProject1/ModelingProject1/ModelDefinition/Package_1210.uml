@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="b75a9ae9-4edc-423d-bd12-3277119508b5"
+  name="Package 1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <useCase
+        Id="af88a27c-545b-4c18-ae3b-3279fca7de3b"
+        name="Betale regning"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="dd805c96-27d1-43ba-95a4-b195827c7e3a">
+            <useCaseMoniker
+              Id="0b8288cf-1803-4041-9d7c-170208835557"
+              LastKnownName="Identifiser bruker"
+              LastKnownLocation="Package_1210.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3677decc-29d2-4087-9c11-bbbbd04a68c5"
+        name="Betale regning - ingen dekning"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="67df3f0e-c864-41a8-b666-18407b6b014d">
+            <useCaseMoniker
+              Id="af88a27c-545b-4c18-ae3b-3279fca7de3b"
+              LastKnownName="Betale regning"
+              LastKnownLocation="Package_1210.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b8288cf-1803-4041-9d7c-170208835557"
+        name="Identifiser bruker"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
